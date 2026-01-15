@@ -17,7 +17,7 @@ Sistema de apoio a mulheres em situação de violência.
 Funciona no terminal Linux, offline e privado.
 
 ## 🤝 Como Participar
-Coletivo **horizontal e voluntário**. Todos são bem-vindos!
+Coletivo **horizontal e voluntário**. !Todos são bem-vindos!
 
 ---
 
