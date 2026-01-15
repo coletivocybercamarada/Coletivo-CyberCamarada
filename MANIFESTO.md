@@ -19,6 +19,7 @@ Funciona no terminal Linux, offline e privado.
 ## 🤝 Como Participar
 Coletivo **horizontal e voluntário**. Todos são bem-vindos!
 
+_Última verificação técnica: $(date)_
 ---
 
 *"Nenhuma de nós é tão forte quanto todas nós juntas"*
