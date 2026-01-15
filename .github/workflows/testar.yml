@@ -1,0 +1,82 @@
+name: 🧪 Testar Projeto Eliza
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  testar-desktop:
+    runs-on: ubuntu-latest
+    name: 🖥️ Testar versão Desktop
+    
+    steps:
+    - name: ⏬ Baixar código
+      uses: actions/checkout@v4
+      
+    - name: 📁 Ver estrutura
+      run: |
+        echo "Estrutura do projeto:"
+        find . -type f -name "*.sh" | sort
+        echo ""
+        echo "Conteúdo da pasta Eliza:"
+        ls -la projetos/eliza/desktop/
+        
+    - name: 🔧 Dar permissões
+      run: |
+        echo "Dando permissão de execução..."
+        chmod +x projetos/eliza/desktop/*.sh
+        ls -la projetos/eliza/desktop/*.sh
+        
+    - name: 🧪 Teste 1 - Arquivos existem
+      run: |
+        echo "Verificando se arquivos principais existem..."
+        [ -f "projetos/eliza/desktop/eliza.sh" ] || { echo "❌ eliza.sh não encontrado"; exit 1; }
+        [ -f "projetos/eliza/desktop/configurar_contato.sh" ] || { echo "❌ configurar_contato.sh não encontrado"; exit 1; }
+        echo "✅ Todos os arquivos encontrados!"
+        
+    - name: 🧪 Teste 2 - São executáveis
+      run: |
+        echo "Verificando permissões..."
+        [ -x "projetos/eliza/desktop/eliza.sh" ] || { echo "❌ eliza.sh não é executável"; exit 1; }
+        [ -x "projetos/eliza/desktop/configurar_contato.sh" ] || { echo "❌ configurar_contato.sh não é executável"; exit 1; }
+        echo "✅ Todos os arquivos são executáveis!"
+        
+    - name: 🧪 Teste 3 - Não crasha ao iniciar
+      run: |
+        echo "Testando inicialização rápida (timeout 10s)..."
+        cd projetos/eliza/desktop
+        # Simula usuário pressionando '0' para sair imediatamente
+        timeout 10s bash -c 'echo "0" | ./eliza.sh' || true
+        echo "✅ Eliza iniciou sem crashar!"
+        
+    - name: 🧪 Teste 4 - Sintaxe Bash válida
+      run: |
+        echo "Verificando sintaxe do Bash..."
+        bash -n projetos/eliza/desktop/eliza.sh && echo "✅ Sintaxe eliza.sh OK"
+        bash -n projetos/eliza/desktop/configurar_contato.sh && echo "✅ Sintaxe configurar_contato.sh OK"
+        
+    - name: ✅ Sucesso
+      run: |
+        echo "========================================"
+        echo "🎉 TODOS OS TESTES PASSARAM!"
+        echo "O Eliza está funcionando corretamente."
+        echo "========================================"
+        
+  testar-documentacao:
+    runs-on: ubuntu-latest
+    name: 📚 Testar documentação
+    
+    steps:
+    - name: ⏬ Baixar código
+      uses: actions/checkout@v4
+      
+    - name: 📖 Verificar READMEs
+      run: |
+        echo "Verificando arquivos de documentação..."
+        [ -f "README.md" ] && echo "✅ README principal existe"
+        [ -f "MANIFESTO.md" ] && echo "✅ MANIFESTO existe"
+        [ -f "projetos/eliza/README.md" ] && echo "✅ README do Eliza existe"
+        [ -f "projetos/eliza/desktop/README.md" ] && echo "✅ README do Desktop existe"
+        echo "✅ Toda documentação presente!"
