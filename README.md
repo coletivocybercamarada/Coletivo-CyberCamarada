@@ -87,6 +87,34 @@ chmod +x *.sh
 
     Pesquisa
 
+    ## ⚖️ USO ÉTICO OBRIGATÓRIO
+
+**Atenção:** Este software é tecnicamente livre sob licença MIT, mas:
+
+### 🚫 PROIBIDO ÉTICAMENTE (mesmo que legalmente permitido):
+- **Comercializar** serviços básicos de proteção à vida
+- **Usar para vigilância, controle ou opressão**
+- **Remover créditos** ao coletivo ou comunidades
+- **Modificar para enfraquecer** proteções
+
+### ✅ ENCORAJADO E APOIADO:
+- **Usar** em abrigos, ONGs, coletivos, movimentos sociais
+- **Adaptar** para novas comunidades vulneráveis
+- **Melhorar** e compartilhar de volta
+- **Distribuir** livremente para quem precisa
+
+### ⚠️ CONSEQUÊNCIAS DO USO ANTIÉTICO:
+1. Será **denunciado publicamente**
+2. A **comunidade hacktivista** será alertada
+3. Perderá **credibilidade** no movimento
+4. Será **boicotado** por coletivos aliados
+5. Assume estar ciente das possibilidades diversas de ações diretas
+
+---
+
+**Licença técnica ≠ Licença moral**  
+Nosso movimento é maior que linhas de código.
+
 ### Todos são bem-vindos!
 📞 Contato & Comunidade
 
