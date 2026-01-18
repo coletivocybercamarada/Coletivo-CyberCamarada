@@ -50,6 +50,8 @@ chmod +x *.sh
 
     🌍 Migra (apoio a imigrantes) - IDEAÇÃO
 
+    RadaR Parlamentar (chekin completo de ações parlamentares) - IDEAÇÃO
+
 ### 🎯 Metas:
 
     Finalizar Eliza Desktop
