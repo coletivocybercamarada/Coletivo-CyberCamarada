@@ -122,9 +122,9 @@ Nosso movimento é maior que linhas de código.
 
     Email: coletivocybercamarada@gmail.com
 
-    Redes Sociais: [Em breve] 
+    Redes Sociais: @coletivocybercamarada
 
 📜 Licença
 
 Este projeto está sob licença MIT.
-<p align="center"> <em>"Nenhuma de nós é tão forte quanto todas nós juntas"</em><br> <strong>Coletivo CyberCamarada - 2024</strong> </p> ```
+<p align="center"> <em>"Ou socialismo ou barbárie!"</em><br> <strong>Coletivo CyberCamarada - 2024</strong> </p> ```
