@@ -122,8 +122,6 @@ Nosso movimento é maior que linhas de código.
 
     Email: coletivocybercamarada@gmail.com
 
-    Redes Sociais: @coletivocybercamarada
-
 📜 Licença
 
 Este projeto está sob licença MIT.
