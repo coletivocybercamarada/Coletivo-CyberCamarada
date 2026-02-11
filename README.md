@@ -120,7 +120,7 @@ Nosso movimento é maior que linhas de código.
 ### Todos são bem-vindos!
 📞 Contato & Comunidade
 
-    Email: coletivocybercamarada@gmail.com
+    Email: coletivocybercamarada@tutamail.com
 
 📜 Licença
 
