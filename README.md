@@ -44,13 +44,16 @@ chmod +x *.sh
 
     ✅ Eliza (violência contra mulheres) - EM ANDAMENTO
 
-    ✊ Axé (combate ao racismo) - PLANEJAMENTO
+    🔏 ECO ZERO (aplicativo de chat para uso específico de coletivos ativistas, jornalistas investigativos,povos em resistência, grupos em vulnerabilidade, enfim, que necessitem de TOTAL sigilo, privacidade e segurança para organização e ação direta).
 
-    🏳️‍🌈 Arco-Íris (proteção LGBTQIA+) - IDEAÇÃO
+    🤝🏿 Axé (combate ao racismo) - IDEAÇÃO
 
-    🌍 Migra (apoio a imigrantes) - IDEAÇÃO
+    🌈 Arco-Íris (proteção LGBTQIA+) - IDEAÇÃO
 
-    RadaR Parlamentar (chekin completo de ações parlamentares) - IDEAÇÃO
+    🧕 Migra (apoio a imigrantes) - IDEAÇÃO
+
+    🗺️ Mapa Seguro (cadastro e avaliação de lugares que acolhem minorias, assim como cadastro de denúncia de lugares descriminatórios e violentos)
+
 
 ### 🎯 Metas:
 
@@ -63,6 +66,9 @@ chmod +x *.sh
     Criar rede de voluntários
 
     Desenvolver novas ações
+
+    Organizar ações diretas de hacktivismo 
+
 
 ### 🤝 Como Contribuir
 ### 💻 Desenvolvedores/as:
@@ -79,6 +85,10 @@ chmod +x *.sh
 
 ### 🎨 Não-programadores/as:
 
+    Comunistas
+    
+    Antifascistas 
+
     Design
 
     Documentação
@@ -88,6 +98,10 @@ chmod +x *.sh
     Divulgação
 
     Pesquisa
+    
+    Artistas visuais
+
+    Hackers 
 
     ## ⚖️ USO ÉTICO OBRIGATÓRIO
 
@@ -125,4 +139,4 @@ Nosso movimento é maior que linhas de código.
 📜 Licença
 
 Este projeto está sob licença MIT.
-<p align="center"> <em>"Ou socialismo ou barbárie!"</em><br> <strong>Coletivo CyberCamarada - 2024</strong> </p> ```
+<p align="center"> <em>"Ou socialismo ou barbárie!"</em><br> <strong>Coletivo CyberCamarada - 2026</strong> </p> ```
